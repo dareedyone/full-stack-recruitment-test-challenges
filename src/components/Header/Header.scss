@@ -8,6 +8,11 @@
   background-color: $bpk-color-white;
 
   @include bpk-box-shadow-sm;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
 
   &__hidden-text {
     @include bpk-visually-hidden;

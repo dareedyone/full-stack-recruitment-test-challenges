@@ -35,5 +35,9 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "proxy": "http://localhost:3001"
 }

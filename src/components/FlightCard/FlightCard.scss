@@ -1,0 +1,78 @@
+@import '~bpk-mixins';
+
+.Flightcard {
+  &__container {
+    padding: $bpk-spacing-sm;
+    background-color: white;
+    margin: 15px 0;
+    &:first-child {
+      margin: -5px 0 15px 0;
+    }
+  }
+  &__leg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    // background-color: red;
+
+    &__details {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      // background-color: yellow;
+
+      &__logonstart {
+        display: flex;
+
+        &__logo {
+          margin-right: 10px;
+          width: 40px;
+        }
+      }
+
+      &__arrow {
+        align-self: center;
+        color: #918c9d;
+        font-weight: bold;
+      }
+      &__direct {
+        font-size: 14px;
+        color: #26a698;
+      }
+      &__stop {
+        font-size: 14px;
+        color: #d75a6f;
+      }
+      &__hourstaken {
+        font-size: 14px;
+        color: #918c9d;
+      }
+    }
+  }
+
+  &__c2a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  &__price {
+    // font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  &__btn {
+    color: white;
+    background-color: #26a698;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: 800;
+    border: none;
+    padding: 0 30px;
+  }
+}
+
+.color {
+  &__secondary {
+    color: #918c9d;
+  }
+}

@@ -1,7 +1,11 @@
 @import '~bpk-mixins';
 
 .App {
+  max-width: 480px;
+  margin: auto;
   &__main {
     padding: $bpk-spacing-sm;
+    background-color: #f2f1f4;
+    margin-top: 50px;
   }
 }
